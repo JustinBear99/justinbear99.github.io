@@ -9,7 +9,7 @@ const useDarkMode = () => {
         const root = window.document.documentElement
         root.classList.remove(colorTheme)
         root.classList.add(theme)
-    }, [theme], colorTheme)
+    }, [theme, colorTheme])
 
     return [colorTheme, setTheme]
 }
