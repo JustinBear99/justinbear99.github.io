@@ -16,7 +16,7 @@ function App() {
         <div className="bg-white opacity-90 absolute mt-0 ml-0 w-full h-full dark:bg-gray-500">
           <Header/>
           <Routes>
-            <Route path='/' element={<Home/>}></Route>
+            <Route exact path='/' element={<Home/>}></Route>
             <Route path='/about' element={<About/>}></Route>
             <Route path='/projects' element={<Projects/>}></Route>
             <Route path='/resume' element={<Resume/>}></Route>
