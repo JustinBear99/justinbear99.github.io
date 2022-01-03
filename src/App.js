@@ -10,7 +10,7 @@ import Particle from './components/Particle';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Particle/>
         <div className="bg-white opacity-90 absolute mt-0 ml-0 w-full h-full dark:bg-gray-500">
