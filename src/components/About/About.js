@@ -21,7 +21,7 @@ const About = () => {
             </div> */}
             <div className="py-5 dark:text-white">
                 <h1 className="font-bold text-4xl my-5">Skills</h1>
-                <div className="flex flex-wrap flex-row px-40">
+                <div className="flex flex-wrap flex-row px-10">
                     {skills.map((skill) => (<Skill key={skill.name} name={skill.name} icon={skill.icon} />))}
                 </div>
             </div>
