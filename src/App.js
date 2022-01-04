@@ -13,7 +13,7 @@ function App() {
     <Router basename={'/'}>
       <div className="App">
         <Particle/>
-        <div className="bg-white opacity-90 absolute mt-0 ml-0 w-full h-full dark:bg-gray-500">
+        <div className="bg-white opacity-90 absolute mt-0 ml-0 w-full h-full overflow-auto dark:bg-gray-500">
           <Header/>
           <Routes>
             <Route exact path='/' element={<Home/>}></Route>
