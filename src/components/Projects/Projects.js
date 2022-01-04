@@ -3,6 +3,7 @@ import Project from './Project'
 import asparagus from '../../images/asparagus.jpg'
 import modelstructure from '../../images/modelstructure.png'
 import ppocr from '../../images/ppocr.png'
+import portfolio from '../../images/portfolio-home.png'
 
 const Projects = () => {
     return (
@@ -23,7 +24,7 @@ const Projects = () => {
                      content="This App can recognize simplified Chinese and English text in daily life scene under 1s. The recognition model is provided by Paddle and the deployment framework is Streamlit"
             />
             <Project link="https://github.com/JustinBear99/mywebsite"
-                     imgPath={null}
+                     imgPath={portfolio}
                      header="Portfolio"
                      content="This portfolio website is written in React.js and tailwind supporting dark mode."
             />
